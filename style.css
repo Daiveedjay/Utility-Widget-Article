@@ -12,10 +12,13 @@ body {
   align-items: center;
   height: 100vh;
   background: #e0e0e0;
+  position: relative;
 }
 
 .widget {
-  position: relative;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
   width: 220px;
   height: 220px;
   display: flex;
