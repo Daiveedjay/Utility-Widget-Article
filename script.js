@@ -109,7 +109,7 @@ const whereAmI = async function () {
 
     // USING A REVERSE-GEOLOCATION API TO CONVERT YOUR lONGITUDE AND LATITUDE VALUES INTO A DEFINED LOCATION
     const responseGeo = await fetch(
-      `https://geocode.xyz/${latitude},${longitude}?geoit=json&auth=505858084882722911741x37213`
+      `https://geocode.xyz/${latitude},${longitude}?geoit=json&auth=YOUR_API_KEY`
     );
 
     if (!responseGeo.ok) throw new Error("Problem getting location data");
